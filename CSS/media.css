@@ -1,0 +1,57 @@
+@media (min-width: 300px) {
+  .w-10{
+    width: 27%;
+  }
+ 
+  .fon-size{
+    font-size: 13px;
+
+  }
+ 
+}
+@media (min-width: 400px) {
+
+
+}
+
+@media (min-width: 768px) {
+  
+
+  .w-10{
+    width: 10%;
+  }
+  .wid-butn{
+    width: 10%;
+  
+  }
+  .header-content h1 , .header-content p {
+    font-size: 55px;
+  }
+}
+
+@media (min-width: 992px) {
+ 
+  .navbar-nav .nav-link.active::after {
+ 
+   
+   
+    opacity: 1;
+    content: "";
+    position: absolute;
+    background-color: var(--main-color);
+    left: 3px;
+   width: 100%;
+    height: 2px;
+    
+ transition: all 2s ease-in;
+ 
+    display: block;
+  }
+ 
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+}
