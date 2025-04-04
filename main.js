@@ -1,38 +1,24 @@
-let collaps = document.getElementById("colllpsBtn")
-let closBtn = document.getElementById("closBtn")
-let collapsnav = document.querySelector(".collapse")
+let openBtn = document.getElementById("colllpsBtn");
+let closeBtn = document.getElementById("closBtn");
+let navbar = document.getElementById("navbarNav");
+let navLinks = document.querySelectorAll(".nav-link");
 
-closBtn.addEventListener("click", () => {
-    closBtn.style.animation = "collaps  0.4s"
-
-    collaps.classList.remove("d-none")
-    closBtn.classList.add("d-none")
-})
-let navLink = document.querySelectorAll(".nav-link")
-console.log(navLink)
-
-collaps.addEventListener("click", function (e) {
-    collaps.style.animation = "collaps  0.4s"
-
-    collaps.classList.add("d-none")
-
-    closBtn.classList.remove("d-none")
-    collapsnav.classList.toggle("d-none")
-
-
-
-
-})
-navLink.forEach(navLink => {
-    navLink.addEventListener("click", () => {
-        collapsnav.classList.toggle("d-none")
-        collaps.classList.replace("d-none", "d-block")
-        closBtn.classList.add("d-none")
-
-
-
-    })
-
+openBtn.addEventListener("click", () => {
+    navbar.classList.remove("d-none");
+    closeBtn.classList.remove("d-none");
+    openBtn.classList.add("d-none");
 });
 
+closeBtn.addEventListener("click", () => {
+    navbar.classList.add("d-none");
+    closeBtn.classList.add("d-none");
+    openBtn.classList.remove("d-none");
+});
 
+// navLinks.forEach((link) => {
+//     link.addEventListener("click", () => {
+//       navbar.classList.add("d-none");
+//       closeBtn.classList.add("d-none");
+//       openBtn.classList.remove("d-none");
+//     });
+//   });;

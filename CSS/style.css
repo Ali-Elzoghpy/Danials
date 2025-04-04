@@ -114,9 +114,9 @@ a {
 
   z-index: -20;
   position: absolute;
-  bottom: -10px;
+  bottom: -10%;
 
-  left: -29px;
+  left: -29%;
 }
 .titel {
   color: var(--main-color);
@@ -159,20 +159,20 @@ a {
 .title2 {
   color: var(--main-color);
 }
-.title2 h1::after {
+/* .title2 h1::after {
   content: "";
 
   background-image: url(../imgs/dots.png);
-  bottom: 0px;
-  top: 20px;
-  left: 550px;
-  right: 0px;
+  bottom: 0%;
+  top: 20%;
+  left: 550%;
+  right: 0%;
   width: 200px;
   z-index: 5;
   height: 20px;
   background-repeat: repeat;
   position: absolute;
-}
+} */
 .title2 h1 {
   font-size: 40px;
   color: #212529;
@@ -197,7 +197,7 @@ a {
 .item {
   background-color: #ffffff;
 }
-.title3::after {
+/* .title3::after {
   content: "";
 
   background-image: url(../imgs/dots.png);
@@ -205,10 +205,10 @@ a {
   background-repeat: repeat;
   position: absolute;
 
-  bottom: 0px;
-  left: 540px;
-  right: 540px;
-}
+  bottom: 0%;
+  left: 540%;
+  right: 540%;
+} */
 
 .title3 {
   font-size: 40px;
